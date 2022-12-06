@@ -13,7 +13,7 @@
 
 body {
     height: 100vh;
-    background-color: aqua;
+    background-color: #eeeeee;
 }
 
 
@@ -21,7 +21,7 @@ body {
 .header {
     position: absolute;
     top: 0;
-    height: 5vh;
+    height: 8vh;
     width: 100%;
     background-color: #0691D7;
     color: white;
@@ -29,17 +29,15 @@ body {
     justify-content: center;
     align-items: center;
     right: auto;
-    position: sticky;
+    /* position: sticky; */
 }
 .min {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: #eeeeee;
     /* padding: 0 0 50px 0; */
     overflow: hidden;
     display: flex;
-    
-
 }
 .message-el {
     display: flex;
@@ -60,7 +58,7 @@ body {
 .footer {
     position: absolute;
     bottom: 0;
-    height: 6vh;
+    height: 10vh;
     width: 100%;
     background-color: #ffffff;
     display: flex;
@@ -69,13 +67,13 @@ body {
 
 .massage-box {
     width: 100%;
-    height: 6vh;
+    height: 10vh;
     background-color: #ffffff;
     display: flex;
 }
 input {
     border: none;
-    height: 6vh;
+    height: 10vh;
     width: 100%;
     font-family: Roboto;
     font-size: 16px;
@@ -88,7 +86,7 @@ input:focus{
 .send-message {
     background-color: #ffffff;
     margin-left: auto;
-    height: 6vh;
+    height: 10vh;
     width: 70px;
     display: flex;
     justify-content: center;
