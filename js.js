@@ -8,3 +8,9 @@ sendMessage.addEventListener("click", function(){
     messageEl.appendChild(newMessage);
     textBox.value = ""
 });
+
+function scroll() {
+    let scrollMessage = document.querySelector(".min");
+    scrollMessage.scrollTop = scrollMessage.scrollHeight ;
+}
+scroll()
